@@ -36,7 +36,7 @@ export default function Technologies() {
           animate="animate"
           className='rounded-2xl border-4 border-neutral-800 p-4'>
           <RiReactjsLine className="text-7xl text-cyan-400"></RiReactjsLine>
-          React
+          
         </motion.div>
         <motion.div
         variants={iconVariants(5)}

@@ -1,76 +1,49 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Highly motivated front-end developer with a passion for React and a strong foundation in creating user-friendly and efficient web applications. Eager to utilize technical skills and gain practical experience in building innovative web solutions.`;
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+export const ABOUT_TEXT = `I am a passionate front-end developer with a knack for crafting robust and scalable web applications.I have honed my skills in HTML5, CSS3, React.js, and Tailwind CSS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences. Additionally, I have a solid understanding of back-end technologies such as Node.js, Express.js, and MongoDB, enabling me to collaborate effectively with full-stack teams and contribute to the overall success of projects.`;
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "CampCare360 | Medical Camp Managment System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "CampCare360 is a web application for managing Medical Camp with Dynamic HomePage,Organizer Dashboard,Participant Dashboard ,Payment Gateway,Search Functionality,Pagination",
+    technologies: ["HTML", "CSS","Tailwind Css" ,"React", "Node.js","Express.js", "MongoDB"],
+    liveLink:"https://medi-camp-77c1e.web.app/",
+    client:"https://github.com/ruhul121980/Medical-Camp-Client/tree/main/frontEnd",
+    server:"https://github.com/ruhul121980/Medical-Camp-Server"
   },
   {
-    title: "Task Management App",
+    title: "Inner Quest | Counselling Sevices",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Inner Quest is a web application designed to provide online counseling services, with features such as user registration,login,add service,manage service,user feedback,light and dark theme toggles,search functionality",
+    technologies: ["HTML", "CSS","Tailwind Css" ,"React", "Node.js","Express.js", "MongoDB"],
+    liveLink:"https://innerquest-counseling-services.web.app",
+    client:"https://github.com/ruhul121980/Innerquest-clientSide",
+    server:"https://github.com/ruhul121980/Innerquest-serverSide"
   },
   {
-    title: "Portfolio Website",
+    title: "R.A.H Art & Craft | Handmade Crafts E-commerce",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "R.A.H Art & Craft is an e-commerce web application designed to showcase and sell handmade art and craft products with Features, User Registration and Authentication,Find Products by Category and Filter, Product Listings  ",
+    technologies: ["HTML", "CSS","Tailwind Css" ,"React", "Node.js","Express.js", "MongoDB"],
+    liveLink:"https://craft-efa7b.web.app/",
+    client:"https://github.com/ruhul121980/Art-Craft-Client",
+    server:"https://github.com/ruhul121980/Art-Craft-Server"
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Konabari , Gazipur , Dhaka , Bangladesh ",
+  phoneNo: "+8801626922773",
+  email: "ruhul121980@gmail.com",
 };
