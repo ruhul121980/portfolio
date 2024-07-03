@@ -44,6 +44,14 @@ export default function Hero() {
             >
               {HERO_CONTENT}
             </motion.p>
+            <div className="mb-6 lg:mb-1">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1coSEyWmG8UJ3PAJeyjwSmj-gKmVegTFS"
+              class="bg-purple-800 hover:bg-purple-950 text-white font-bold py-2 px-4 rounded"
+            >
+              Resume
+            </a>
+            </div>
           </div>
         </div>
 

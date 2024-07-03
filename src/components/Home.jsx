@@ -5,6 +5,7 @@ import Technologies from './Technologies';
 import Projects from './Projects';
 import Contact from './Contact';
 import Education from "./Education";
+import ContactForm from "./ContactForm";
 
 
 
@@ -30,6 +31,7 @@ function Home() {
           <Projects />
           <Education></Education>
           </div>
+          <ContactForm></ContactForm>
           <div id="contact">
           <Contact />
           </div>
